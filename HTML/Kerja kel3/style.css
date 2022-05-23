@@ -1,0 +1,38 @@
+body{
+    background-image:url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+ul.halaman {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(bg3.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+li{
+    float:left;
+}
+
+li a {
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 18px;
+}
+p{
+    font-size: larger;
+    font-family: Arial ;
+    color: yellow;
+}
+body.bg2{
+    background-image:url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
