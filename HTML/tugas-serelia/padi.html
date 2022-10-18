@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:url(bg3.png)">
+    <div class="dropdown">
+        <button class="mainmenubtn">Menu</button>
+        <div class="dropdown-child">
+        <a class="menu" href="index.html">Main</a>
+        <a class="menu" href="padi.html">Beras</a>
+        <a class="menu" href="jagung.html">Jagung</a>
+        <a class="menu" href="gandum.html">Gandum</a>
+        <a class="menu" href="sorgum.html">Sorgum</a>
+        </div>
+    </div>
+    <p style="font-size:20px;">1. Beras Putih (Oryza sativa L.)</p><img src="beras.png" alt="beras" style="width:400px; height:200px; border-radius: 20px;">
+    <p style="font-size:20px;">Manfaat: <br>-Harga terjangkau <br>-Lapisan kulit sudah dibuang</p> <br>
+    <p style="font-size:20px;">2. Beras Merah (Oryza rufipogon)</p><img src="berasM.png" alt="beras" style="width:400px; height:200px; border-radius: 20px;">
+    <p style="font-size:20px;">Manfaat: <br>-Alternatif beras putih <br>-Bagus untuk diet(Kandungan glukosa yang sedikit) <br>-Mengandung protein,serat,zat besi dan vitamin D</p> <br>
+    <p style="font-size:20px;">3. Beras Cokelat</p><img src="berasC.png" alt="beras" style="width:400px; height:200px; border-radius: 20px;">
+    <p style="font-size:20px;">Manfaat: <br>-Pilihan penderita diabetes & sakit jantung<br>-Mampu menurunkan kolestrol dan gula darah</p> <br>
+    <p style="font-size:20px;">4. Beras Hitam (Oryza Sativa L. Indica)</p><img src="berasH.png" alt="beras" style="width:400px; height:200px; border-radius: 20px;">
+    <p style="font-size:20px;">Manfaat: <br>-Memiliki gizi yang tinggi <br>-Kaya serat dan antioksidan </p> <br>
+</body>
+<style>
+p{
+    font-size: 20px;
+    color: gray;
+}
+.nama{
+    font-family: arial black;
+}
+.nama:hover{
+    font-family: 'Gill Sans';
+    color: darkcyan;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin-top:5px;
+}
+.mainmenubtn:hover {
+    background-color: lightseagreen;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 20px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.menu:hover{
+    background-color: lightseagreen;
+}
+
+</style>
+</html>
+

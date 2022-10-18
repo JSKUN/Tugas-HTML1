@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:url(bg.png);">
+    <div class="dropdown">
+        <button class="mainmenubtn">Menu</button>
+        <div class="dropdown-child">
+        <a class="menu" href="index.html">Main</a>
+        <a class="menu" href="padi.html">Beras</a>
+        <a class="menu" href="jagung.html">Jagung</a>
+        <a class="menu" href="gandum.html">Gandum</a>
+        <a class="menu" href="sorgum.html">Sorgum</a>
+        </div>
+    </div>
+    <center>
+        <h1>Kerja Kelompok <br>Serelia</h1> <br> 
+    </center>
+    <p style="font-size:30px;">Member:</p>
+    <ul  style="font-size:20px;"><li class="nama">Adriana</li><li class="nama">Joseph</li><li class="nama">Pieter</li></ul>
+</body>
+<style>
+.nama{
+    font-family: arial black;
+}
+.nama:hover{
+    font-family: 'Gill Sans';
+    color: darkcyan;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin-top:5px;
+}
+.mainmenubtn:hover {
+    background-color: lightseagreen;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 20px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.menu:hover{
+    background-color: lightseagreen;
+}
+
+</style>
+</html>
+

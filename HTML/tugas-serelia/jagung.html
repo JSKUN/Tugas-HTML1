@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:url(bg3.png)">
+    <div class="dropdown">
+        <button class="mainmenubtn">Menu</button>
+        <div class="dropdown-child">
+        <a class="menu" href="index.html">Main</a>
+        <a class="menu" href="padi.html">Beras</a>
+        <a class="menu" href="jagung.html">Jagung</a>
+        <a class="menu" href="gandum.html">Gandum</a>
+        <a class="menu" href="sorgum.html">Sorgum</a>
+        </div>
+    </div>
+    <p>Jenis Jenis Jagung: <br> <br>
+        -Jagung gigi kuda <br> <img src="jagungkuda.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br> <br>
+        -Jangung mutiara <br> <img src="jagungmutiara.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br> <br>
+        -Jagung manis <br> <img src="jagungmanis.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br> <br>
+        -Jagung berondong(Kuning & Baby rice) <br> <img src="jagungberondong.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br><img src="jagungbaby.jpg" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"> <br> <br>
+        -Jagung pod <br> <img src="jagungpod.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br> <br>
+        -Jagung ketan(Kuning, Putih & Hitam) <br><img src="jagungketankuning.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"> <br> <img src="jagungketan.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br><img src="jagungketanhitam.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"> <br> <br>
+        -Jagung tepung</p><img src="jagungtepung.png" alt="jagung" style="width:500px; height: 300px; border-radius:20px;"><br> <br>
+</body>
+<style>
+p{
+    font-size: 25px;
+    color: gray;
+}
+.nama{
+    font-family: arial black;
+}
+.nama:hover{
+    font-family: 'Gill Sans';
+    color: darkcyan;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin-top:5px;
+}
+.mainmenubtn:hover {
+    background-color: lightseagreen;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 20px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.menu:hover{
+    background-color: lightseagreen;
+}
+
+</style>
+</html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:url(bg3.png)">
+    <div class="dropdown">
+        <button class="mainmenubtn">Menu</button>
+        <div class="dropdown-child">
+        <a class="menu" href="index.html">Main</a>
+        <a class="menu" href="padi.html">Beras</a>
+        <a class="menu" href="jagung.html">Jagung</a>
+        <a class="menu" href="gandum.html">Gandum</a>
+        <a class="menu" href="sorgum.html">Sorgum</a>
+        </div>
+    </div>
+    <div>
+        <div style=" width:1000px; font-size: 20px; font-family:arial; border-radius: 20px; margin-left: 5%; height: 200px; display: flex;">
+            <div><img src="gandum.png" alt="gandum" height="350px" width="400px" style="display:block; flex-direction:column; border-radius: 20px;"></div>
+            <div style="background-color:teal ; margin-left: 10px; width: 300px; height: 350px; border-radius: 20px;">
+            <p style="font-size:28x; margin-left: 10px;">Cara pembuatan tepung gandum:</p>
+            <div>
+                <p style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:black; text-decoration:underline;margin-left: 10px;"> <br> Tahap 1: cleaning <br> <br>
+                Tahap 2: Tempering <br> <br>
+                Tahap 3: Pencampuran <br> <br>
+                Tahap 4: Penggilingan <br> <br>
+                Tahap 5: Pengemasan</p>
+            </div>
+        </div>
+        </div>
+
+    
+</body>
+<style>
+.nama{
+    font-family: arial black;
+}
+.nama:hover{
+    font-family: 'Gill Sans';
+    color: darkcyan;
+}
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin-top:5px;
+}
+.mainmenubtn:hover {
+    background-color: lightseagreen;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 20px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.menu:hover{
+    background-color: lightseagreen;
+}
+
+</style>
+</html>
+
